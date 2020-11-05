@@ -11,7 +11,7 @@ package com.teguh.arrayOfObject;
 public class Konohagakure {
 
     // initialize all variable
-    protected int noRegistrasi;
+    protected String noRegistrasi;
     protected String nama;
     protected String peringkat;
 
@@ -19,7 +19,7 @@ public class Konohagakure {
      * To get Nomor Registrasi
      * @return
      */
-    public int getNoRegistrasi() {
+    public String getNoRegistrasi() {
         return noRegistrasi;
     }
 
@@ -27,7 +27,7 @@ public class Konohagakure {
      * To set Nomor Registrasi
      * @param noRegistrasi
      */
-    public void setNoRegistrasi(int noRegistrasi) {
+    public void setNoRegistrasi(String noRegistrasi) {
         this.noRegistrasi = noRegistrasi;
     }
 
